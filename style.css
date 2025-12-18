@@ -1,0 +1,39 @@
+body {
+  background: rgb(7, 0, 0);
+  color: rgb(0, 255, 0);
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  border: 7px solid red;
+  padding: 100px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: rgb(44, 76, 193);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background: #111;
+  border: 2px solid red;
+  padding: 20px;
+  width: 300px;
+  margin: 20% auto;
+  text-align: center;
+}
